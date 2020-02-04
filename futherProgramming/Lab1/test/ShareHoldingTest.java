@@ -1,5 +1,3 @@
-import org.junit.After;
-import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
@@ -19,14 +17,10 @@ public class ShareHoldingTest {
         assertEquals(15, holding.getPrice().getValue());
     }
     
+    @Test
     public void testSetQty() {
         ShareHolding holding = new ShareHolding("bar");
         holding.setQty(400);
         assertEquals(400, holding.getQty());
     }
-    // TODO add test methods here.
-    // The methods must be annotated with annotation @Test. For example:
-    //
-    // @Test
-    // public void hello() {}
 }

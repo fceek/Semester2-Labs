@@ -1,5 +1,3 @@
-import org.junit.After;
-import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
@@ -29,9 +27,4 @@ public class PortfolioTest {
         foo.add(bar2);
         assertEquals(10*100 + 10*100, foo.getTotalValue().getValue());
     }
-    // TODO add test methods here.
-    // The methods must be annotated with annotation @Test. For example:
-    //
-    // @Test
-    // public void hello() {}
 }

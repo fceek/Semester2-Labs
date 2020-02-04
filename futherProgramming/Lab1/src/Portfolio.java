@@ -9,7 +9,7 @@ public class Portfolio {
     
     public Portfolio() {
         this.total = 0;
-        this.shareHoldings = new HashMap();
+        this.shareHoldings = new HashMap<String, ShareHolding>();
     }
     
     public void add(ShareHolding newShareHolding) {

@@ -1,0 +1,7 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "lib-general/junit-jupiter-api-5.6.0.jar",
+        "lib-general/**/*.jar"
+    ]
+}
